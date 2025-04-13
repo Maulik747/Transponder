@@ -1,0 +1,23 @@
+[project]
+name = "BidirectionalUtils"
+version = "0.0.1"
+authors = [
+  { name="Subigya Paudel", email="subigya.paudel@tum.de" },
+  { name="Maulik Chhetri", email="maulik.chhetri@tum.de"},
+  { name="Bivek Panthi", email="bivek.panthi@tum.de"}
+]
+description = "All the code that is needed to switch causal attention in TinyLlama to full attention"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://gitlab.lrz.de/green-and-recyclable-ai/lab-course-ss24/lab-course-24-01-think-gpt-think-introducing-the-trans-ponder/-/tree/main?ref_type=heads"
